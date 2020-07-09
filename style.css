@@ -1,0 +1,296 @@
+*{
+  box-sizing: border-box;
+}
+.mainDiv{
+  width: 100%;
+  background-color: rgb(208, 216, 224);
+}
+.topDiv{
+    display: block;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.topSpan{
+    float: left;
+}
+.secondSpan{
+    float: right;
+    margin-right: 20px;
+}
+
+.a{
+    margin-top: 0px ;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0px;
+}
+
+.div2{
+    float: left;
+    width: 33.33%;
+    height: 100px;
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+}
+
+input[type=text] {
+    width: 80%;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat;
+    background-image: url('searchIcon.jpg');
+    background-size: contain;
+    background-position: right;
+    margin-top: 20px;
+    padding: 3px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imageMain{
+    left: 30%;
+    right: 30%;
+    background-color: lightslategray;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+  .topImage{
+    width: 100%;
+    height: 250px;
+    padding: 15px;
+  }
+
+  .fourImg{
+    float: left;
+    width:25%;
+    height:200px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .fourImgtext{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 16px;
+    height: 30px;
+    padding: 5px;
+  }
+
+  .topnav1{
+    overflow: hidden;
+    background-color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 50px;
+  }
+  
+  .topnav1 a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .topnav1 a:hover{
+    background-color: white;
+    color: black;
+  }
+
+  .header{
+    background-color: white;
+    padding: 22px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(236, 240, 243);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: rgb(216, 213, 213);
+    color: rgb(54, 53, 53);
+  }
+
+  .active {
+    background-color: rgb(216, 213, 213);
+  }
+
+  /* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.1%;
+    padding: 20px;
+    border:1px solid black;
+    height: 300px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .footer {
+    left: 30%;
+    right: 30%;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .sixImageMain{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .sixImage{
+    float: left;
+    width: 15.225%;
+    margin: 8px;
+    height: 350px;
+    border: 1px solid gray;
+    position: relative;
+    padding: 15px;
+  }
+
+  .top-right1 {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 40px;
+    text-align: center;
+    background-color: #b80505;
+    color: white;
+  }
+
+  .top-right2 {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 40px;
+    text-align: center;
+    background-color: lightgrey;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    color: #b80505;
+  }
+
+  .imageButton{
+    text-align: center;
+    background-color: #b80505;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    border: 0;
+  }
+
+  div.gallery {
+    border: 1px solid #ccc;
+    float: left;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 5px;
+    font-size: 15px;
+    height: 60px;
+  }
+
+  .footerColumn {
+    float: left;
+    padding: 20px;
+    height: 250px;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  /* Left and right column */
+  .footerColumn.first {
+    width: 25%;
+  }
+
+  .footerColumn.second{
+    width: 40%;
+  }
+  
+  /* Middle column */
+  .footerColumn.middle {
+    width: 17.5%;
+    line-height: 0px;
+  }
+
+  .centerpanel {
+    font-size: 28px;
+    width:100%;
+    height:100%;
+    }
+
+    .leftpanel {
+    display:inline-block;
+    width:20%;
+    }
+    .rightpanel {
+    display:inline-block;
+    font-size: 12px;
+    width:70%;
+    height: 35px;
+    margin-top: 10px;
+    }
+    
